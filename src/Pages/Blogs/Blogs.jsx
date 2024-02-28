@@ -29,7 +29,7 @@ export default function Blogs() {
   return (
     
     <div className="container">
-        <Billboard/>
+      
      <div className="blogs-listing-container">
         <h3 className="my-3"></h3>
         <div className="blogs-container">
