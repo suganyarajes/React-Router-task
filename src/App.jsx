@@ -17,6 +17,7 @@ function App() {
 <main>
   <Navbar/>
   <div className='my-2'></div>
+  <Billboard/>
 
 <Blogs/>
 
