@@ -16,9 +16,9 @@ function App() {
   return (
 <main>
   <Navbar/>
-  <div className='my-2'></div>
-  <Billboard/>
-
+  
+ <Billboard/>
+ <div className='my-2'></div>
 <Blogs/>
 
 <Routes>
