@@ -1,4 +1,6 @@
-
+body{
+  background-color: rgb(176, 175, 174);
+}
 
 
 .active {
@@ -6,10 +8,14 @@
     border-radius: 5px;
   }
 
-.navbar{
+  /* Navbar.css */
 
-    background-color: rgb(90, 93, 93);
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #92bde8; /* Change the background color as needed */
+  color: rgb(62, 58, 58); /* Change the text color as needed */
 }
+
+  
 .container{
 
     width: 100%;
@@ -29,9 +35,13 @@ width:100%;
 .blog-card {
     > img {
       height: 250px;
+      background-color: rgba(172, 209, 209, 0.94);
     }
     > .card-body {
+{  }
+
       > .details {
+        
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -40,21 +50,10 @@ width:100%;
   }
 
   
-.navbar {
-    background-color: #f8f9fa; 
-  }
+
   
-  .navbar-brand {
-    font-size: 1.5rem; 
-  }
+ 
   
-  .navbar-nav {
-    flex-direction: row;
-  }
-  .nav-item {
-    margin-right: 15px; 
-  
-  }
   @media (max-width: 992px) {
     .navbar-nav {
       flex-direction: column; 
@@ -71,4 +70,4 @@ width:100%;
       font-size: 1.2rem; 
     }
   }
-  
+}
